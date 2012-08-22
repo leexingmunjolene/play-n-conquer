@@ -87,7 +87,7 @@ class Page1(webapp.RequestHandler):
                     Zero
                 </div>
                 <div class="h2" id="fittext">
-                    // Addition and Multiplication Principle
+                    // Introduction
                 </div>
 				<div class="navi">
 					<a rel="external" data-transition="slide" href="/tut1">&nbsp;>&nbsp;</a>
@@ -106,17 +106,12 @@ class Page1(webapp.RequestHandler):
 				</div>
 				</div>
 				<p>
-				<b>Addition Principle</b>
+				<b>Introduction</b>
 				<br><br>
-				Suppose there are <i>n<sub>1</sub></i> ways for the event <i>E<sub>1</sub></i> to occur, <i>n<sub>2</sub></i> ways for the event <i>E<sub>2</sub></i> to occur, and <i>n<sub>x</sub></i> ways for the event <i>E<sub>x</sub></i> to occur. If all these events are mutually exclusive (i.e. they are independent of each other; the happening of one event does not affect another event), then the number of ways for <i>E<sub>x</sub></i> to occur is <i>n<sub>1</sub></i> + <i>n<sub>2</sub></i> + ... + <i>n<sub>x</sub></i>.
+				In everyday life, we often need to "count" the number of ways to arrange objects, perform a task or distribute items according to some specification. We may want to know the number of ways that we can arrange 6 adults and 3 children in a single row so that no two children sits next to each other. We may also want to know how many ways there are to divide a group of 13 people into three groups of 7 people, 4 people and 2 people to occupy a van, a car and a 2-seater convertible respectively.<br>
+				<br>
+				We will first discuss two fundamental principles used in counting problems: the addition principle and the mltiplication principle, before going into "permutations" and "combinations".
 				<br><br>
-				+Animation
-				<br><br>
-				<b>Multiplication principle</b>
-				<br><br>
-				Suppose that an event <i>E</i> can be split into <i>k</i> sub-events <i>E<sub>1</sub></i>, <i>E<sub>2</sub></i>, <i>E<sub>3</sub></i>, ..., <i>E<sub>x</sub></i> in ordered stages (i.e. the outcome of one event will affect the outcome of the following events). If there are <i>n<sub>1</sub></i> ways for the event <i>E<sub>1</sub></i> to occur, <i>n<sub>2</sub></i> ways for the event <i>E<sub>2</sub></i> to occur, and <i>n<sub>x</sub></i> ways for the event <i>E<sub>x</sub></i> to occur, then the number of ways for event <i>E</i> to occur is <i>n<sub>1</sub></i> x <i>n<sub>2</sub></i> x ... x <i>n<sub>x</sub></i> .
-				<br><br>
-				+Animation
 				</p>
 				<div class="footer">
 				<br>J<sup>3</sup> &copy; 2012<br>
@@ -338,8 +333,20 @@ class Page4(webapp.RequestHandler):
 				<br>
 				<i><sup>See the flash animation below for an illustrated example.</sup></i><br>
 				<br>
-				+Animation<br>
-				<br>
+				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="480" height="240" id="example1" align="middle">
+				<param name="movie" value="/static/example1.swf"/>
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="/static/example1.swf" width="480" height="240">
+					<param name="movie" value="/static/example1.swf"/>
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"/>
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+				</object>
+				<br><br>
 				The first seat may be filled up in <b>3</b> different ways: A, B or C can sit in that sit.<br>
 				After the first seat is filled, the second seat can be filled in only <b>2</b> ways as there are only two students left.<br>
 				Finally, it leaves <b>1</b> student to fill up the last seat.<br>
@@ -360,9 +367,19 @@ class Page4(webapp.RequestHandler):
 				<br>
 				In order to do this, we can simply think of it has having less seats than students.<br>
 				<br>
-				<i><sup>See the flash animation below for an illustrated example.</sup></i><br>
-				<br>
-				+Animation<br>
+								<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="480" height="240" id="example2" align="middle">
+				<param name="movie" value="/static/example2.swf"/>
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="/static/example2.swf" width="480" height="240">
+					<param name="movie" value="/static/example2.swf"/>
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"/>
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+				</object><br>
 				</p>
 				<blockquote>
 				In general, the number of ways to arrange <i>r</i> objects out of <i>n</i> objects in a row<br>
@@ -394,7 +411,19 @@ class Page4(webapp.RequestHandler):
 				<br>
 				See the flash example below:<br>
 				<br>
-				+Animation
+				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="480" height="240" id="example3" align="middle">
+				<param name="movie" value="/static/example3.swf"/>
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="/static/example3.swf" width="480" height="240">
+					<param name="movie" value="/static/example3.swf"/>
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"/>
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+				</object>
 				</p>
 				<br><br><br>
 				<div class="footer">
@@ -585,9 +614,6 @@ class Page6(webapp.RequestHandler):
 				(ii) Arranging <i>r</i> objects in a row
 				</blockquote>
 				<p>
-				Insert Animation here.
-				</p>
-				<p>
 				A librarian has 8 fiction and 3 non-fiction books. She decides to display 4 fiction books and 1 non-fiction book.<br>
 				How can the books be arranged if the non-fiction book cannot be placed at either end of the display?<br>
 				<br>
@@ -598,6 +624,23 @@ class Page6(webapp.RequestHandler):
 				<br>
 				Try it yourself!<br>
 				Did you get 15120 as your answer?<br>
+				</p>
+				<br>
+				See the animation for the illustrated solution.<br>
+				<br>
+				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="480" height="240" id="example4" align="middle">
+				<param name="movie" value="/static/example4.swf"/>
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="/static/example4.swf" width="480" height="240">
+					<param name="movie" value="/static/example4.swf"/>
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"/>
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+				</object>
 				</p>
 				<br><br><br>
 				<div class="footer">
@@ -681,13 +724,27 @@ class Page7(webapp.RequestHandler):
 				<i>(n-1) x (n-2) x ... x (n-r) x 2 x 1</i>
 				</blockquote>
 				<p>
-				Insert Animation here.
-				</p>
-				<p>
+				It can be a little tricky to understand, but try checking out the animation...<br>
+				<br>
+				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="480" height="240" id="example5" align="middle">
+				<param name="movie" value="/static/example5.swf"/>
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="/static/example5.swf" width="480" height="240">
+					<param name="movie" value="/static/example5.swf"/>
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"/>
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+				</object><br>
+				<br>
 				How many ways can 3 people be seating at a round table?<br>
 				<br>
-				No. of ways = (3-1)!<br>
-				= 2<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No. of ways<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= (3-1)!<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 2<br>
 				</p>
 				<div class="footer">
 				<br>J<sup>3</sup> &copy; 2012<br>
