@@ -503,8 +503,6 @@ class Page5(webapp.RequestHandler):
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>ACD</i><br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>ABD</i><br>
 				<br>
-				+ research on more explanation<br>
-				See the flash example below:<br>
 				</p>
 				<blockquote>
 				In general, the number of combinations of <i>r</i> objects from n different objects is <i><sup>n</sup>C<sub>r</sub></i> .<br>
